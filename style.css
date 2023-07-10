@@ -1,0 +1,109 @@
+body { 
+    background-color: #e6c9dc; 
+}
+h1 {
+    font-size: 300%;
+}
+img {
+   padding: 5px; 
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    font-size: 16;
+}
+footer {
+    text-align: center;
+    font-size: larger;
+    margin-top: 150px;
+
+}
+
+.accordion {
+    background-color: #16003B;
+    color: #e6c9dc;
+    cursor: pointer;
+    padding: 5%;
+    width: 70%;
+    height: 75px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 40px;
+    margin-left: 15%;
+    max-width: 80%;
+    font-size: 200%;
+}
+.active, .accordion:hover {
+    background-color: #31153B;
+}
+.panel {
+    padding: 0 50px;
+    background-color: #e6c9dc;
+    max-height: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.accordion:after {
+    content: '\02795';
+
+    color: #777;
+    float: right;
+    margin-left: 5px;
+
+}
+.blurb {
+    margin: 50px;
+    font-size: 150%;
+}
+.active:after {
+    content: "\2796";
+}
+
+#randomPrint {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 75%;
+    margin-left: 10%;
+    
+    
+}
+#mission {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#information {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+      
+}
